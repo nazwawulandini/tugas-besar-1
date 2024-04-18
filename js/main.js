@@ -177,7 +177,7 @@
     var myChart4 = new Chart(ctx4, {
         type: "bar",
         data: {
-            labels: ["Italy", "France", "Spain", "USA", "Argentina"],
+            labels: ["Sapi","Kerbau","Babi","Kambing","Ayam"],
             datasets: [{
                 backgroundColor: [
                     "rgba(235, 22, 22, .7)",
@@ -200,7 +200,7 @@
     var myChart5 = new Chart(ctx5, {
         type: "pie",
         data: {
-            labels: ["Italy", "France", "Spain", "USA", "Argentina"],
+            labels: ["Sapi","Kerbau","Babi","Kambing","Ayam"],
             datasets: [{
                 backgroundColor: [
                     "rgba(235, 22, 22, .7)",
@@ -223,7 +223,7 @@
     var myChart6 = new Chart(ctx6, {
         type: "doughnut",
         data: {
-            labels: ["Italy", "France", "Spain", "USA", "Argentina"],
+            labels: ["Sapi","Kerbau","Babi","Kambing","Ayam"],
             datasets: [{
                 backgroundColor: [
                     "rgba(235, 22, 22, .7)",
