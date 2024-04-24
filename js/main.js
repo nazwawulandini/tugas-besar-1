@@ -195,7 +195,7 @@
     });
 
 
-    // Pie Chart
+    // Pie Chart Populasi Ayam Provinsi Jawa Timur
     var ctx5 = $("#pie-chart").get(0).getContext("2d");
     var myChart5 = new Chart(ctx5, {
         type: "pie",
@@ -209,7 +209,7 @@
                     "rgba(235, 22, 22, .4)",
                     "rgba(235, 22, 22, .3)"
                 ],
-                data: [55, 49, 44, 24, 15]
+                data: [282860000,237915000,254632036,252918000,224815000,200895528,194064874]
             }]
         },
         options: {
