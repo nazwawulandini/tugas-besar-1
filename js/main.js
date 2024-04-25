@@ -157,12 +157,12 @@
     var myChart3 = new Chart(ctx3, {
         type: "line",
         data: {
-            labels: ["Sapi","Kerbau","Babi","Kambing"],
+            labels: ["Ayam"],
             datasets: [{
                 label: "Line Chart Populasi Ternak Provinsi Jawa Timur",
                 fill: false,
                 backgroundColor: "rgba(235, 22, 22, .7)",
-                data: [32282741,174837,395671,24223469]
+                data: [4267325,4407807,4511613,4637970,4705067,4823972,4928987]
             }]
         },
         options: {
@@ -176,7 +176,7 @@
     var myChart4 = new Chart(ctx4, {
         type: "bar",
         data: {
-            labels: ["Sapi","Kerbau","Babi","Kambing"],
+            labels: ["Kerbau"],
             datasets: [{
                 backgroundColor: [
                     "rgba(235, 22, 22, .7)",
@@ -185,7 +185,7 @@
                     "rgba(235, 22, 22, .4)",
                     "rgba(235, 22, 22, .3)"
                 ],
-                data: [32282741,174837,395671,24223469]
+                data: [27792,27304,26622,24364,23994,22975,21786]
             }]
         },
         options: {
