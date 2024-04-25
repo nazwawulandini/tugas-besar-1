@@ -196,7 +196,7 @@
                     "rgba(255,0,0,0.4)",
                     "rgba(255,0,0,0.2)"
                 ],
-                data: [27792,27304,26622,24364,23994,22975,21786]
+                data: [44602,50243,57906,62470,58845,67574,54031]
             }]
         },
         options: {
@@ -205,114 +205,27 @@
     });
 
 
-    // Pie Chart Populasi Ayam Provinsi Jawa Timur
+    // Pie Chart
     var ctx5 = $("#pie-chart").get(0).getContext("2d");
     var myChart5 = new Chart(ctx5, {
         type: "pie",
         data: {
-            labels: ["Sapi","Kerbau","Babi","Kambing"],
+            labels: ["2021","2020","2019","2018","2017","2016","2015"],
             datasets: [{
+                label:"Kambing",
                 backgroundColor: [
                     "rgba(235, 22, 22, .6)",
                     "rgba(235, 22, 22, .5)",
                     "rgba(235, 22, 22, .4)",
                     "rgba(235, 22, 22, .3)"
                 ],
-                data: [32282741,174837,395671,24223469]
+                data: [3178197,3279732,3376323,3476635,3524899,3645780,3741903]
             }]
         },
         options: {
             responsive: true
         }
     });
-
-    // Pie Chart Populasi Ayam Provinsi Jawa Timur
-    var ctx5 = $("#pie-chart").get(0).getContext("2d");
-    var myChart5 = new Chart(ctx5, {
-        type: "pie",
-        data: {
-            labels: ["Sapi","Kerbau","Babi","Kambing"],
-            datasets: [{
-                backgroundColor: [
-                    "rgba(235, 22, 22, .7)",
-                    "rgba(235, 22, 22, .6)",
-                    "rgba(235, 22, 22, .5)",
-                    "rgba(235, 22, 22, .4)",
-                    "rgba(235, 22, 22, .3)"
-                ],
-                data: [32282741,174837,395671,24223469]
-            }]
-        },
-        options: {
-            responsive: true
-        }
-    });
-
-    
-    // Pie Chart Populasi Ayam Provinsi Jawa Timur
-    var ctx5 = $("#pie-chart").get(0).getContext("2d");
-    var myChart5 = new Chart(ctx5, {
-        type: "pie",
-        data: {
-            labels: ["Sapi","Kerbau","Babi","Kambing"],
-            datasets: [{
-                backgroundColor: [
-                    "rgba(235, 22, 22, .7)",
-                    "rgba(235, 22, 22, .6)",
-                    "rgba(235, 22, 22, .5)",
-                    "rgba(235, 22, 22, .4)",
-                    "rgba(235, 22, 22, .3)"
-                ],
-                data: [32282741,174837,395671,24223469]
-            }]
-        },
-        options: {
-            responsive: true
-        }
-    });
-
-
-    // Pie Chart Populasi Ayam Provinsi Jawa Timur
-    var ctx5 = $("#pie-chart").get(0).getContext("2d");
-    var myChart5 = new Chart(ctx5, {
-        type: "pie",
-        data: {
-            labels: ["Sapi","Kerbau","Babi","Kambing"],
-            datasets: [{
-                backgroundColor: [
-                    "rgba(235, 22, 22, .7)",
-                    "rgba(235, 22, 22, .6)",
-                    "rgba(235, 22, 22, .5)",
-                    "rgba(235, 22, 22, .4)",
-                    "rgba(235, 22, 22, .3)"
-                ],
-                data: [32282741,174837,395671,24223469]
-            }]
-        },
-        options: {
-            responsive: true
-        }
-    });
-
-    // Pie Chart Populasi Ayam Provinsi Jawa Timur
-    var ctx5 = $("#pie-chart").get(0).getContext("2d");
-    var myChart5 = new Chart(ctx5, {
-        type: "pie",
-        data: {
-            labels: ["Sapi"],
-            datasets: [{
-                backgroundColor: [
-                    "rgba(235, 22, 22, .7)"
-                ],
-                data: [4267325,4407807,4511613,4637970,4705067,4823972,4928987]
-            }]
-        },
-        options: {
-            responsive: true
-        }
-    });
-    
-   
     
 })(jQuery);
 
