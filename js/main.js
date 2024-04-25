@@ -112,46 +112,7 @@
         }
     });
 
-
-    // Salse & Revenue Chart
-    var ctx2 = $("#salse-revenue").get(0).getContext("2d");
-    var myChart2 = new Chart(ctx2, {
-        type: "line",
-        data: {
-            labels: tahun,
-            datasets: [{
-                    label: "Sapi",
-                    data: sapi,
-                    backgroundColor: "rgba(255,0,0,0.2)",
-                    fill: true
-                },
-                {
-                    label: "Kerbau",
-                    data: kerbau,
-                    backgroundColor: "rgba(255,0,0,0.3)",
-                    fill: true
-                },
-                {
-                    label: "Babi",
-                    data: babi,
-                    backgroundColor: "rgba(255,0,0,0.4)",
-                    fill: true
-                },
-                {
-                    label: "Kambing",
-                    data: kambing,
-                    backgroundColor: "rgba(255,0,0,0.1)",
-                    fill: true
-                },
-            ]
-            },
-        options: {
-            responsive: true
-        }
-    });
     
-
-
     // Single Line Chart
     var ctx3 = $("#line-chart").get(0).getContext("2d");
     var myChart3 = new Chart(ctx3, {
@@ -214,10 +175,13 @@
             datasets: [{
                 label:"Kambing",
                 backgroundColor: [
-                    "rgba(235, 22, 22, .6)",
-                    "rgba(235, 22, 22, .5)",
-                    "rgba(235, 22, 22, .4)",
-                    "rgba(235, 22, 22, .3)"
+                    "rgba(255,0,0,1.0)",
+                    "rgba(255,0,0,0.9)",
+                    "rgba(255,0,0,0.8)",
+                    "rgba(255,0,0,0.6)",
+                    "rgba(255,0,0,0.5)",
+                    "rgba(255,0,0,0.4)",
+                    "rgba(255,0,0,0.2)"
                 ],
                 data: [3178197,3279732,3376323,3476635,3524899,3645780,3741903]
             }]
