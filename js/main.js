@@ -157,11 +157,19 @@
     var myChart3 = new Chart(ctx3, {
         type: "line",
         data: {
-            labels: ["Ayam"],
+            labels: ["2021","2020","2019","2018","2017","2016","2015"],
             datasets: [{
-                label: "Line Chart Populasi Ternak Provinsi Jawa Timur",
+                label: "Sapi",
                 fill: false,
-                backgroundColor: "rgba(235, 22, 22, .7)",
+                backgroundColor:[    
+                    "rgba(255,0,0,1.0)",
+                    "rgba(255,0,0,0.9)",
+                    "rgba(255,0,0,0.8)",
+                    "rgba(255,0,0,0.6)",
+                    "rgba(255,0,0,0.5)",
+                    "rgba(255,0,0,0.4)",
+                    "rgba(255,0,0,0.2)"
+                ],
                 data: [4267325,4407807,4511613,4637970,4705067,4823972,4928987]
             }]
         },
@@ -176,14 +184,17 @@
     var myChart4 = new Chart(ctx4, {
         type: "bar",
         data: {
-            labels: ["Kerbau"],
+            labels: ["2021","2020","2019","2018","2017","2016","2015"],
             datasets: [{
-                backgroundColor: [
-                    "rgba(235, 22, 22, .7)",
-                    "rgba(235, 22, 22, .6)",
-                    "rgba(235, 22, 22, .5)",
-                    "rgba(235, 22, 22, .4)",
-                    "rgba(235, 22, 22, .3)"
+                label:"Babi",
+                backgroundColor:[    
+                    "rgba(255,0,0,1.0)",
+                    "rgba(255,0,0,0.9)",
+                    "rgba(255,0,0,0.8)",
+                    "rgba(255,0,0,0.6)",
+                    "rgba(255,0,0,0.5)",
+                    "rgba(255,0,0,0.4)",
+                    "rgba(255,0,0,0.2)"
                 ],
                 data: [27792,27304,26622,24364,23994,22975,21786]
             }]
@@ -202,7 +213,6 @@
             labels: ["Sapi","Kerbau","Babi","Kambing"],
             datasets: [{
                 backgroundColor: [
-                    "rgba(235, 22, 22, .7)",
                     "rgba(235, 22, 22, .6)",
                     "rgba(235, 22, 22, .5)",
                     "rgba(235, 22, 22, .4)",
