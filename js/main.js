@@ -1,7 +1,6 @@
 (function ($) {
     "use strict"; 
     const tahun = [2021,2020,2019,2018,2017,2016,2015]
-    const ayam = [282860000,237915000,254632036,252918000,224815000,200895528,194064874];
     const sapi = [4267325,4407807,4511613,4637970,4705067,4823972,4928987]
     const kerbau =[27792,27304,26622,24364,23994,22975,21786]
     const kambing = [3178197,3279732,3376323,3476635,3524899,3645780,3741903]
@@ -158,12 +157,12 @@
     var myChart3 = new Chart(ctx3, {
         type: "line",
         data: {
-            labels: ["Sapi","Kerbau","Babi","Kambing","Ayam"],
+            labels: ["Sapi","Kerbau","Babi","Kambing"],
             datasets: [{
                 label: "Line Chart Populasi Ternak Provinsi Jawa Timur",
                 fill: false,
                 backgroundColor: "rgba(235, 22, 22, .7)",
-                data: [32282741,174837,395671,24223469,1648100440]
+                data: [32282741,174837,395671,24223469]
             }]
         },
         options: {
