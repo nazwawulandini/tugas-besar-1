@@ -176,7 +176,7 @@
     var myChart4 = new Chart(ctx4, {
         type: "bar",
         data: {
-            labels: ["Sapi","Kerbau","Babi","Kambing","Ayam"],
+            labels: ["Sapi","Kerbau","Babi","Kambing"],
             datasets: [{
                 backgroundColor: [
                     "rgba(235, 22, 22, .7)",
@@ -185,7 +185,7 @@
                     "rgba(235, 22, 22, .4)",
                     "rgba(235, 22, 22, .3)"
                 ],
-                data: [32282741,174837,395671,24223469,1648100440]
+                data: [32282741,174837,395671,24223469]
             }]
         },
         options: {
@@ -199,7 +199,7 @@
     var myChart5 = new Chart(ctx5, {
         type: "pie",
         data: {
-            labels: ["Sapi","Kerbau","Babi","Kambing","Ayam"],
+            labels: ["Sapi","Kerbau","Babi","Kambing"],
             datasets: [{
                 backgroundColor: [
                     "rgba(235, 22, 22, .7)",
@@ -208,7 +208,7 @@
                     "rgba(235, 22, 22, .4)",
                     "rgba(235, 22, 22, .3)"
                 ],
-                data: [32282741,174837,395671,24223469,1648100440]
+                data: [32282741,174837,395671,24223469]
             }]
         },
         options: {
@@ -216,13 +216,12 @@
         }
     });
 
-
-    // Doughnut Chart
-    var ctx6 = $("#doughnut-chart").get(0).getContext("2d");
-    var myChart6 = new Chart(ctx6, {
-        type: "doughnut",
+    // Pie Chart Populasi Ayam Provinsi Jawa Timur
+    var ctx5 = $("#pie-chart").get(0).getContext("2d");
+    var myChart5 = new Chart(ctx5, {
+        type: "pie",
         data: {
-            labels: ["Sapi","Kerbau","Babi","Kambing","Ayam"],
+            labels: ["Sapi","Kerbau","Babi","Kambing"],
             datasets: [{
                 backgroundColor: [
                     "rgba(235, 22, 22, .7)",
@@ -231,7 +230,7 @@
                     "rgba(235, 22, 22, .4)",
                     "rgba(235, 22, 22, .3)"
                 ],
-                data: [55, 49, 44, 24, 15]
+                data: [32282741,174837,395671,24223469]
             }]
         },
         options: {
@@ -239,6 +238,71 @@
         }
     });
 
+    
+    // Pie Chart Populasi Ayam Provinsi Jawa Timur
+    var ctx5 = $("#pie-chart").get(0).getContext("2d");
+    var myChart5 = new Chart(ctx5, {
+        type: "pie",
+        data: {
+            labels: ["Sapi","Kerbau","Babi","Kambing"],
+            datasets: [{
+                backgroundColor: [
+                    "rgba(235, 22, 22, .7)",
+                    "rgba(235, 22, 22, .6)",
+                    "rgba(235, 22, 22, .5)",
+                    "rgba(235, 22, 22, .4)",
+                    "rgba(235, 22, 22, .3)"
+                ],
+                data: [32282741,174837,395671,24223469]
+            }]
+        },
+        options: {
+            responsive: true
+        }
+    });
+
+
+    // Pie Chart Populasi Ayam Provinsi Jawa Timur
+    var ctx5 = $("#pie-chart").get(0).getContext("2d");
+    var myChart5 = new Chart(ctx5, {
+        type: "pie",
+        data: {
+            labels: ["Sapi","Kerbau","Babi","Kambing"],
+            datasets: [{
+                backgroundColor: [
+                    "rgba(235, 22, 22, .7)",
+                    "rgba(235, 22, 22, .6)",
+                    "rgba(235, 22, 22, .5)",
+                    "rgba(235, 22, 22, .4)",
+                    "rgba(235, 22, 22, .3)"
+                ],
+                data: [32282741,174837,395671,24223469]
+            }]
+        },
+        options: {
+            responsive: true
+        }
+    });
+
+    // Pie Chart Populasi Ayam Provinsi Jawa Timur
+    var ctx5 = $("#pie-chart").get(0).getContext("2d");
+    var myChart5 = new Chart(ctx5, {
+        type: "pie",
+        data: {
+            labels: ["Sapi"],
+            datasets: [{
+                backgroundColor: [
+                    "rgba(235, 22, 22, .7)"
+                ],
+                data: [4267325,4407807,4511613,4637970,4705067,4823972,4928987]
+            }]
+        },
+        options: {
+            responsive: true
+        }
+    });
+    
+   
     
 })(jQuery);
 
