@@ -173,6 +173,31 @@
         data: {
             labels: ["2021","2020","2019","2018","2017","2016","2015"],
             datasets: [{
+                label:"Kerbau",
+                backgroundColor: [
+                    "rgba(255,0,0,1.0)",
+                    "rgba(255,0,0,0.9)",
+                    "rgba(255,0,0,0.8)",
+                    "rgba(255,0,0,0.6)",
+                    "rgba(255,0,0,0.5)",
+                    "rgba(255,0,0,0.4)",
+                    "rgba(255,0,0,0.2)"
+                ],
+                data: [3178197,3279732,3376323,3476635,3524899,3645780,3741903]
+            }]
+        },
+        options: {
+            responsive: true
+        }
+    });
+
+    // Pie Chart
+    var ctx5 = $("#pie-chart").get(0).getContext("2d");
+    var myChart5 = new Chart(ctx5, {
+        type: "pie",
+        data: {
+            labels: ["2021","2020","2019","2018","2017","2016","2015"],
+            datasets: [{
                 label:"Kambing",
                 backgroundColor: [
                     "rgba(255,0,0,1.0)",
