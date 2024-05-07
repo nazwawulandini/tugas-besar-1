@@ -191,10 +191,10 @@
         }
     });
 
-    // Pie Chart
+    // Doughnut Chart
     var ctx5 = $("#pie-chart").get(0).getContext("2d");
     var myChart5 = new Chart(ctx5, {
-        type: "pie",
+        type: "doughnut",
         data: {
             labels: ["2021","2020","2019","2018","2017","2016","2015"],
             datasets: [{
